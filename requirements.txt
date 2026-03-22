@@ -1,0 +1,22 @@
+torch
+transformers
+accelerate
+sentencepiece
+tqdm
+
+# Optional — ASR models
+# librosa
+# soundfile
+
+# Optional — LoRA fine-tuning
+# peft
+
+# Optional — CATT diacritization
+# catt @ git+https://github.com/abjadai/catt.git
+
+# Optional — analysis & figures
+# matplotlib
+# arabic-reshaper
+# python-bidi
+# pyarabic
+# camel-tools

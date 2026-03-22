@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data directories
+Public_Data_TrainDev/
+Test/
+outputs/
+results/
+submissions/
+
+# Model weights & checkpoints
+*.bin
+*.pt
+*.pth
+*.safetensors
+checkpoints/
+models/
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.log
+wandb/

@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "ksaa2026-fine-tashkeel"
+version = "1.0.0"
+description = "Arabic Text Diacritization — KSAA 2026 Shared Task (5th Place)"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Hassan Barmandah", email = "hassanb4@example.com"},
+]
+keywords = [
+    "arabic",
+    "diacritization",
+    "tashkeel",
+    "nlp",
+    "seq2seq",
+    "transformers",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Natural Language :: Arabic",
+]
+dependencies = [
+    "torch",
+    "transformers",
+    "accelerate",
+    "sentencepiece",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+asr = ["librosa", "soundfile"]
+lora = ["peft"]
+analysis = ["matplotlib", "arabic-reshaper", "python-bidi", "camel-tools"]
+all = ["librosa", "soundfile", "peft", "matplotlib", "arabic-reshaper", "python-bidi", "camel-tools"]
+
+[project.urls]
+Repository = "https://github.com/HasanBGit/KSAA2026-Fine-Tashkeel"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
